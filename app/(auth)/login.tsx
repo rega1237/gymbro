@@ -13,7 +13,7 @@ export default function LoginScreen() {
       />
       <Link href="/(tabs)/explore" asChild>
         <Pressable className="bg-[#f0c30f] mt-5 p-3 rounded-md active:opacity-20">
-          <ThemedText>Sign In With Google</ThemedText>
+          <ThemedText type="defaultSemiBold">Sign In With Google</ThemedText>
         </Pressable>
       </Link>
     </ThemedView>
